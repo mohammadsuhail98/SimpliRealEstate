@@ -20,6 +20,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var menueButton: UIBarButtonItem!
     @IBOutlet weak var rent: UIButton!
     @IBOutlet weak var sale: UIButton!
+
     @IBOutlet weak var leadingConstraint: NSLayoutConstraint!
     @IBOutlet weak var userName: UILabel!
     @IBOutlet weak var userImage: UIImageView!
@@ -207,6 +208,7 @@ class ViewController: UIViewController {
 
 
     }
+    //buttons
     @objc func HoldDown(button:UIButton){
         button.backgroundColor = UIColor(hexString: "577FBE")
     }
