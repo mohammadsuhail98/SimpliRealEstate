@@ -1,2 +1,2 @@
 # SimpliRealEstate
-a simple first prototype of real estate app 
+a simple first prototype of A real estate app 
