@@ -1,0 +1,839 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1107A7B220E5287900B7D1BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1107A7B120E5287900B7D1BD /* AppDelegate.swift */; };
+		1107A7B420E5287900B7D1BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1107A7B320E5287900B7D1BD /* ViewController.swift */; };
+		1107A7B920E5287A00B7D1BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1107A7B820E5287A00B7D1BD /* Assets.xcassets */; };
+		1107A7BC20E5287A00B7D1BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1107A7BA20E5287A00B7D1BD /* LaunchScreen.storyboard */; };
+		1107A7C720E5287A00B7D1BD /* SimpliRealEstateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1107A7C620E5287A00B7D1BD /* SimpliRealEstateTests.swift */; };
+		1107A7D220E5287A00B7D1BD /* SimpliRealEstateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1107A7D120E5287A00B7D1BD /* SimpliRealEstateUITests.swift */; };
+		1107A7E820E6650E00B7D1BD /* SideBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1107A7E720E6650E00B7D1BD /* SideBarView.swift */; };
+		1107A7E920E6650E00B7D1BD /* SideBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1107A7E720E6650E00B7D1BD /* SideBarView.swift */; };
+		1107A7EA20E6650E00B7D1BD /* SideBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1107A7E720E6650E00B7D1BD /* SideBarView.swift */; };
+		1107A7F020E774F300B7D1BD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1107A7EF20E774F300B7D1BD /* LoginViewController.swift */; };
+		1107A7F220E7AE0E00B7D1BD /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1107A7F120E7AE0E00B7D1BD /* SignUpViewController.swift */; };
+		1107A7F820EAB60F00B7D1BD /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1107A7F720EAB60F00B7D1BD /* UserService.swift */; };
+		1107A7FA20EAB64300B7D1BD /* UserProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1107A7F920EAB64300B7D1BD /* UserProfileModel.swift */; };
+		1107A7FC20EBF2E100B7D1BD /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1107A7FB20EBF2E100B7D1BD /* ImageService.swift */; };
+		1107A80020EE1C5C00B7D1BD /* ForSaleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1107A7FF20EE1C5C00B7D1BD /* ForSaleTableViewController.swift */; };
+		1107A80220EE1D3600B7D1BD /* ForSaleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1107A80120EE1D3600B7D1BD /* ForSaleCell.swift */; };
+		1107A80420EE34CC00B7D1BD /* ForSaleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1107A80320EE34CC00B7D1BD /* ForSaleModel.swift */; };
+		1107A80820EE476000B7D1BD /* SaleMoreInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1107A80720EE476000B7D1BD /* SaleMoreInfo.swift */; };
+		1107A81320EE586D00B7D1BD /* RentMoreInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1107A81220EE586D00B7D1BD /* RentMoreInfo.swift */; };
+		1107A81520EE587F00B7D1BD /* ForRentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1107A81420EE587F00B7D1BD /* ForRentTableViewController.swift */; };
+		1107A81920F0CFBB00B7D1BD /* ForRentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1107A81820F0CFBB00B7D1BD /* ForRentModel.swift */; };
+		1107A81B20F1FA5F00B7D1BD /* FavCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1107A81A20F1FA5F00B7D1BD /* FavCell.swift */; };
+		1107A81D20F2101300B7D1BD /* FavModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1107A81C20F2101300B7D1BD /* FavModel.swift */; };
+		115795C5213D267B0038FC77 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 115795C4213D267A0038FC77 /* GoogleService-Info.plist */; };
+		115795C7213D26C70038FC77 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 115795C6213D26C70038FC77 /* Info.plist */; };
+		1173B02020F7E4F700D9B36C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1173B01F20F7E4F700D9B36C /* Main.storyboard */; };
+		1173B02220F7E67B00D9B36C /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1173B02120F7E67B00D9B36C /* ProfileVC.swift */; };
+		1173B02420F8BE8900D9B36C /* CustomNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1173B02320F8BE8900D9B36C /* CustomNavigationController.swift */; };
+		11B9649E20F4F14C00C9776C /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B9649D20F4F14C00C9776C /* SettingsVC.swift */; };
+		11B964A020F4F4FA00C9776C /* CustomerServiceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B9649F20F4F4FA00C9776C /* CustomerServiceVC.swift */; };
+		5043EA8C56B884F9CE7A01FC /* Pods_SimpliRealEstate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 432CEDB939240B062C85D827 /* Pods_SimpliRealEstate.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1107A7C320E5287A00B7D1BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1107A7A620E5287900B7D1BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1107A7AD20E5287900B7D1BD;
+			remoteInfo = SimpliRealEstate;
+		};
+		1107A7CE20E5287A00B7D1BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1107A7A620E5287900B7D1BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1107A7AD20E5287900B7D1BD;
+			remoteInfo = SimpliRealEstate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05C346FC75AF06D93A68E262 /* Pods-SimpliRealEstate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpliRealEstate.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpliRealEstate/Pods-SimpliRealEstate.release.xcconfig"; sourceTree = "<group>"; };
+		1107A7AE20E5287900B7D1BD /* SimpliRealEstate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpliRealEstate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1107A7B120E5287900B7D1BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1107A7B320E5287900B7D1BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1107A7B820E5287A00B7D1BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1107A7BB20E5287A00B7D1BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1107A7C220E5287A00B7D1BD /* SimpliRealEstateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpliRealEstateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1107A7C620E5287A00B7D1BD /* SimpliRealEstateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpliRealEstateTests.swift; sourceTree = "<group>"; };
+		1107A7C820E5287A00B7D1BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1107A7CD20E5287A00B7D1BD /* SimpliRealEstateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpliRealEstateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1107A7D120E5287A00B7D1BD /* SimpliRealEstateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpliRealEstateUITests.swift; sourceTree = "<group>"; };
+		1107A7D320E5287A00B7D1BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1107A7E720E6650E00B7D1BD /* SideBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarView.swift; sourceTree = "<group>"; };
+		1107A7EF20E774F300B7D1BD /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1107A7F120E7AE0E00B7D1BD /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		1107A7F720EAB60F00B7D1BD /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		1107A7F920EAB64300B7D1BD /* UserProfileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileModel.swift; sourceTree = "<group>"; };
+		1107A7FB20EBF2E100B7D1BD /* ImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageService.swift; sourceTree = "<group>"; };
+		1107A7FF20EE1C5C00B7D1BD /* ForSaleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForSaleTableViewController.swift; sourceTree = "<group>"; };
+		1107A80120EE1D3600B7D1BD /* ForSaleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForSaleCell.swift; sourceTree = "<group>"; };
+		1107A80320EE34CC00B7D1BD /* ForSaleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForSaleModel.swift; sourceTree = "<group>"; };
+		1107A80720EE476000B7D1BD /* SaleMoreInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaleMoreInfo.swift; sourceTree = "<group>"; };
+		1107A81220EE586D00B7D1BD /* RentMoreInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentMoreInfo.swift; sourceTree = "<group>"; };
+		1107A81420EE587F00B7D1BD /* ForRentTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForRentTableViewController.swift; sourceTree = "<group>"; };
+		1107A81820F0CFBB00B7D1BD /* ForRentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForRentModel.swift; sourceTree = "<group>"; };
+		1107A81A20F1FA5F00B7D1BD /* FavCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavCell.swift; sourceTree = "<group>"; };
+		1107A81C20F2101300B7D1BD /* FavModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavModel.swift; sourceTree = "<group>"; };
+		115795C4213D267A0038FC77 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		115795C6213D26C70038FC77 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1173B01F20F7E4F700D9B36C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		1173B02120F7E67B00D9B36C /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		1173B02320F8BE8900D9B36C /* CustomNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationController.swift; sourceTree = "<group>"; };
+		11B9649D20F4F14C00C9776C /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		11B9649F20F4F4FA00C9776C /* CustomerServiceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerServiceVC.swift; sourceTree = "<group>"; };
+		432CEDB939240B062C85D827 /* Pods_SimpliRealEstate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpliRealEstate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8517743EACC829457978D208 /* Pods-SimpliRealEstate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpliRealEstate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpliRealEstate/Pods-SimpliRealEstate.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1107A7AB20E5287900B7D1BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5043EA8C56B884F9CE7A01FC /* Pods_SimpliRealEstate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1107A7BF20E5287A00B7D1BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1107A7CA20E5287A00B7D1BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1107A7A520E5287900B7D1BD = {
+			isa = PBXGroup;
+			children = (
+				1107A80F20EE582500B7D1BD /* ForRent */,
+				1107A80D20EE57B700B7D1BD /* ForSale */,
+				1107A80C20EE579100B7D1BD /* Models */,
+				1107A80A20EE577D00B7D1BD /* Services */,
+				1107A7B020E5287900B7D1BD /* SimpliRealEstate */,
+				1107A7C520E5287A00B7D1BD /* SimpliRealEstateTests */,
+				1107A7D020E5287A00B7D1BD /* SimpliRealEstateUITests */,
+				1107A7AF20E5287900B7D1BD /* Products */,
+				26F3DE12152EEC6BA4DC43C1 /* Pods */,
+				CEFA95DD29F2E83D5AA0E49F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1107A7AF20E5287900B7D1BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1107A7AE20E5287900B7D1BD /* SimpliRealEstate.app */,
+				1107A7C220E5287A00B7D1BD /* SimpliRealEstateTests.xctest */,
+				1107A7CD20E5287A00B7D1BD /* SimpliRealEstateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1107A7B020E5287900B7D1BD /* SimpliRealEstate */ = {
+			isa = PBXGroup;
+			children = (
+				1107A7B120E5287900B7D1BD /* AppDelegate.swift */,
+				1107A7B320E5287900B7D1BD /* ViewController.swift */,
+				1173B01F20F7E4F700D9B36C /* Main.storyboard */,
+				1173B02120F7E67B00D9B36C /* ProfileVC.swift */,
+				11B9649F20F4F4FA00C9776C /* CustomerServiceVC.swift */,
+				1173B02320F8BE8900D9B36C /* CustomNavigationController.swift */,
+				11B9649D20F4F14C00C9776C /* SettingsVC.swift */,
+				1107A7F120E7AE0E00B7D1BD /* SignUpViewController.swift */,
+				1107A7EF20E774F300B7D1BD /* LoginViewController.swift */,
+				1107A7E720E6650E00B7D1BD /* SideBarView.swift */,
+				1107A7B820E5287A00B7D1BD /* Assets.xcassets */,
+				1107A7BA20E5287A00B7D1BD /* LaunchScreen.storyboard */,
+				115795C4213D267A0038FC77 /* GoogleService-Info.plist */,
+				115795C6213D26C70038FC77 /* Info.plist */,
+			);
+			path = SimpliRealEstate;
+			sourceTree = "<group>";
+		};
+		1107A7C520E5287A00B7D1BD /* SimpliRealEstateTests */ = {
+			isa = PBXGroup;
+			children = (
+				1107A7C620E5287A00B7D1BD /* SimpliRealEstateTests.swift */,
+				1107A7C820E5287A00B7D1BD /* Info.plist */,
+			);
+			path = SimpliRealEstateTests;
+			sourceTree = "<group>";
+		};
+		1107A7D020E5287A00B7D1BD /* SimpliRealEstateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1107A7D120E5287A00B7D1BD /* SimpliRealEstateUITests.swift */,
+				1107A7D320E5287A00B7D1BD /* Info.plist */,
+			);
+			path = SimpliRealEstateUITests;
+			sourceTree = "<group>";
+		};
+		1107A80A20EE577D00B7D1BD /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1107A7F720EAB60F00B7D1BD /* UserService.swift */,
+				1107A7FB20EBF2E100B7D1BD /* ImageService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		1107A80C20EE579100B7D1BD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1107A7F920EAB64300B7D1BD /* UserProfileModel.swift */,
+				1107A80320EE34CC00B7D1BD /* ForSaleModel.swift */,
+				1107A81C20F2101300B7D1BD /* FavModel.swift */,
+				1107A81820F0CFBB00B7D1BD /* ForRentModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1107A80D20EE57B700B7D1BD /* ForSale */ = {
+			isa = PBXGroup;
+			children = (
+				1107A80720EE476000B7D1BD /* SaleMoreInfo.swift */,
+				1107A80120EE1D3600B7D1BD /* ForSaleCell.swift */,
+				1107A7FF20EE1C5C00B7D1BD /* ForSaleTableViewController.swift */,
+			);
+			path = ForSale;
+			sourceTree = "<group>";
+		};
+		1107A80F20EE582500B7D1BD /* ForRent */ = {
+			isa = PBXGroup;
+			children = (
+				1107A81220EE586D00B7D1BD /* RentMoreInfo.swift */,
+				1107A81A20F1FA5F00B7D1BD /* FavCell.swift */,
+				1107A81420EE587F00B7D1BD /* ForRentTableViewController.swift */,
+			);
+			path = ForRent;
+			sourceTree = "<group>";
+		};
+		26F3DE12152EEC6BA4DC43C1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8517743EACC829457978D208 /* Pods-SimpliRealEstate.debug.xcconfig */,
+				05C346FC75AF06D93A68E262 /* Pods-SimpliRealEstate.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CEFA95DD29F2E83D5AA0E49F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				432CEDB939240B062C85D827 /* Pods_SimpliRealEstate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1107A7AD20E5287900B7D1BD /* SimpliRealEstate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1107A7D620E5287A00B7D1BD /* Build configuration list for PBXNativeTarget "SimpliRealEstate" */;
+			buildPhases = (
+				5975C90A2CBA531C7ED34874 /* [CP] Check Pods Manifest.lock */,
+				1107A7AA20E5287900B7D1BD /* Sources */,
+				1107A7AB20E5287900B7D1BD /* Frameworks */,
+				1107A7AC20E5287900B7D1BD /* Resources */,
+				F80D7D75C9D29F7490393ABD /* [CP] Embed Pods Frameworks */,
+				BF3A149D7FD463082F34E935 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpliRealEstate;
+			productName = SimpliRealEstate;
+			productReference = 1107A7AE20E5287900B7D1BD /* SimpliRealEstate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1107A7C120E5287A00B7D1BD /* SimpliRealEstateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1107A7D920E5287A00B7D1BD /* Build configuration list for PBXNativeTarget "SimpliRealEstateTests" */;
+			buildPhases = (
+				1107A7BE20E5287A00B7D1BD /* Sources */,
+				1107A7BF20E5287A00B7D1BD /* Frameworks */,
+				1107A7C020E5287A00B7D1BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1107A7C420E5287A00B7D1BD /* PBXTargetDependency */,
+			);
+			name = SimpliRealEstateTests;
+			productName = SimpliRealEstateTests;
+			productReference = 1107A7C220E5287A00B7D1BD /* SimpliRealEstateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1107A7CC20E5287A00B7D1BD /* SimpliRealEstateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1107A7DC20E5287A00B7D1BD /* Build configuration list for PBXNativeTarget "SimpliRealEstateUITests" */;
+			buildPhases = (
+				1107A7C920E5287A00B7D1BD /* Sources */,
+				1107A7CA20E5287A00B7D1BD /* Frameworks */,
+				1107A7CB20E5287A00B7D1BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1107A7CF20E5287A00B7D1BD /* PBXTargetDependency */,
+			);
+			name = SimpliRealEstateUITests;
+			productName = SimpliRealEstateUITests;
+			productReference = 1107A7CD20E5287A00B7D1BD /* SimpliRealEstateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1107A7A620E5287900B7D1BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = mohammad;
+				TargetAttributes = {
+					1107A7AD20E5287900B7D1BD = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					1107A7C120E5287A00B7D1BD = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 1107A7AD20E5287900B7D1BD;
+					};
+					1107A7CC20E5287A00B7D1BD = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 1107A7AD20E5287900B7D1BD;
+					};
+				};
+			};
+			buildConfigurationList = 1107A7A920E5287900B7D1BD /* Build configuration list for PBXProject "SimpliRealEstate" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1107A7A520E5287900B7D1BD;
+			productRefGroup = 1107A7AF20E5287900B7D1BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1107A7AD20E5287900B7D1BD /* SimpliRealEstate */,
+				1107A7C120E5287A00B7D1BD /* SimpliRealEstateTests */,
+				1107A7CC20E5287A00B7D1BD /* SimpliRealEstateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1107A7AC20E5287900B7D1BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1107A7BC20E5287A00B7D1BD /* LaunchScreen.storyboard in Resources */,
+				115795C5213D267B0038FC77 /* GoogleService-Info.plist in Resources */,
+				1107A7B920E5287A00B7D1BD /* Assets.xcassets in Resources */,
+				115795C7213D26C70038FC77 /* Info.plist in Resources */,
+				1173B02020F7E4F700D9B36C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1107A7C020E5287A00B7D1BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1107A7CB20E5287A00B7D1BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5975C90A2CBA531C7ED34874 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimpliRealEstate-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF3A149D7FD463082F34E935 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SimpliRealEstate/Pods-SimpliRealEstate-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseFacebookAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseGoogleAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebasePhoneAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseTwitterAuthUI.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterShareExtensionUIResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseFacebookAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseGoogleAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebasePhoneAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseTwitterAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterShareExtensionUIResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpliRealEstate/Pods-SimpliRealEstate-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F80D7D75C9D29F7490393ABD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SimpliRealEstate/Pods-SimpliRealEstate-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/BubbleTransition/BubbleTransition.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftHEXColors/SwiftHEXColors.framework",
+				"${PODS_ROOT}/TwitterCore/iOS/TwitterCore.framework",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BubbleTransition.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftHEXColors.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpliRealEstate/Pods-SimpliRealEstate-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1107A7AA20E5287900B7D1BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1173B02220F7E67B00D9B36C /* ProfileVC.swift in Sources */,
+				1107A81920F0CFBB00B7D1BD /* ForRentModel.swift in Sources */,
+				1107A7F220E7AE0E00B7D1BD /* SignUpViewController.swift in Sources */,
+				1107A80420EE34CC00B7D1BD /* ForSaleModel.swift in Sources */,
+				1107A80020EE1C5C00B7D1BD /* ForSaleTableViewController.swift in Sources */,
+				1107A7FC20EBF2E100B7D1BD /* ImageService.swift in Sources */,
+				1173B02420F8BE8900D9B36C /* CustomNavigationController.swift in Sources */,
+				1107A81520EE587F00B7D1BD /* ForRentTableViewController.swift in Sources */,
+				1107A81320EE586D00B7D1BD /* RentMoreInfo.swift in Sources */,
+				1107A7FA20EAB64300B7D1BD /* UserProfileModel.swift in Sources */,
+				1107A7B420E5287900B7D1BD /* ViewController.swift in Sources */,
+				1107A80820EE476000B7D1BD /* SaleMoreInfo.swift in Sources */,
+				1107A81B20F1FA5F00B7D1BD /* FavCell.swift in Sources */,
+				11B964A020F4F4FA00C9776C /* CustomerServiceVC.swift in Sources */,
+				1107A7F820EAB60F00B7D1BD /* UserService.swift in Sources */,
+				1107A7E820E6650E00B7D1BD /* SideBarView.swift in Sources */,
+				1107A7F020E774F300B7D1BD /* LoginViewController.swift in Sources */,
+				1107A80220EE1D3600B7D1BD /* ForSaleCell.swift in Sources */,
+				1107A81D20F2101300B7D1BD /* FavModel.swift in Sources */,
+				1107A7B220E5287900B7D1BD /* AppDelegate.swift in Sources */,
+				11B9649E20F4F14C00C9776C /* SettingsVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1107A7BE20E5287A00B7D1BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1107A7E920E6650E00B7D1BD /* SideBarView.swift in Sources */,
+				1107A7C720E5287A00B7D1BD /* SimpliRealEstateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1107A7C920E5287A00B7D1BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1107A7EA20E6650E00B7D1BD /* SideBarView.swift in Sources */,
+				1107A7D220E5287A00B7D1BD /* SimpliRealEstateUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1107A7C420E5287A00B7D1BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1107A7AD20E5287900B7D1BD /* SimpliRealEstate */;
+			targetProxy = 1107A7C320E5287A00B7D1BD /* PBXContainerItemProxy */;
+		};
+		1107A7CF20E5287A00B7D1BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1107A7AD20E5287900B7D1BD /* SimpliRealEstate */;
+			targetProxy = 1107A7CE20E5287A00B7D1BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1107A7BA20E5287A00B7D1BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1107A7BB20E5287A00B7D1BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1107A7D420E5287A00B7D1BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1107A7D520E5287A00B7D1BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1107A7D720E5287A00B7D1BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8517743EACC829457978D208 /* Pods-SimpliRealEstate.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9CMS9V8HJ2;
+				INFOPLIST_FILE = SimpliRealEstate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RealEstate.SimpliRealEstate;
+				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1107A7D820E5287A00B7D1BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05C346FC75AF06D93A68E262 /* Pods-SimpliRealEstate.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9CMS9V8HJ2;
+				INFOPLIST_FILE = SimpliRealEstate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RealEstate.SimpliRealEstate;
+				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1107A7DA20E5287A00B7D1BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SimpliRealEstateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RealEstate.SimpliRealEstateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpliRealEstate.app/SimpliRealEstate";
+			};
+			name = Debug;
+		};
+		1107A7DB20E5287A00B7D1BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SimpliRealEstateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RealEstate.SimpliRealEstateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpliRealEstate.app/SimpliRealEstate";
+			};
+			name = Release;
+		};
+		1107A7DD20E5287A00B7D1BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SimpliRealEstateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RealEstate.SimpliRealEstateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimpliRealEstate;
+			};
+			name = Debug;
+		};
+		1107A7DE20E5287A00B7D1BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SimpliRealEstateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RealEstate.SimpliRealEstateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimpliRealEstate;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1107A7A920E5287900B7D1BD /* Build configuration list for PBXProject "SimpliRealEstate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1107A7D420E5287A00B7D1BD /* Debug */,
+				1107A7D520E5287A00B7D1BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1107A7D620E5287A00B7D1BD /* Build configuration list for PBXNativeTarget "SimpliRealEstate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1107A7D720E5287A00B7D1BD /* Debug */,
+				1107A7D820E5287A00B7D1BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1107A7D920E5287A00B7D1BD /* Build configuration list for PBXNativeTarget "SimpliRealEstateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1107A7DA20E5287A00B7D1BD /* Debug */,
+				1107A7DB20E5287A00B7D1BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1107A7DC20E5287A00B7D1BD /* Build configuration list for PBXNativeTarget "SimpliRealEstateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1107A7DD20E5287A00B7D1BD /* Debug */,
+				1107A7DE20E5287A00B7D1BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1107A7A620E5287900B7D1BD /* Project object */;
+}
